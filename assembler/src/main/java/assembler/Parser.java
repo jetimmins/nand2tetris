@@ -8,5 +8,6 @@ public interface Parser extends AutoCloseable {
     int getCurrentAddress();
 
     void advance();
+
     Command command();
 }
