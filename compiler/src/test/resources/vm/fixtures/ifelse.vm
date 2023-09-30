@@ -1,0 +1,21 @@
+function EmptyIfElseStatement.something 0
+push argument 0
+pop pointer 0
+push constant 1
+neg
+if-goto if_true_0
+goto else_start_0
+label if_true_0
+push pointer 0
+push argument 1
+push argument 2
+call EmptyIfElseStatement.something 3
+pop temp 0
+goto if_else_end_0
+label else_start_0
+push pointer 0
+push argument 2
+push argument 1
+call EmptyIfElseStatement.somethingElse 3
+pop temp 0
+label if_else_end_0

@@ -1,0 +1,17 @@
+    add
+    sub
+    neg
+    eq
+    gt
+    lt
+    and
+    or
+    not
+    push constant 0
+    pop local 1
+label thing
+    goto thing
+    if-goto thing
+function func 0
+    return
+    call func 0

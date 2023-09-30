@@ -1,0 +1,14 @@
+function EmptyReturnStatement.something 2
+push argument 0
+pop pointer 0
+push local 1
+push constant 4
+eq
+pop local 0
+push constant 0
+return
+function EmptyReturnStatement.four 0
+push argument 0
+pop pointer 0
+push constant 4
+return

@@ -1,0 +1,77 @@
+class ReminderPrompt {
+    field Array reminders;
+    field int arrptr;
+
+    constructor ReminderPrompt new() {
+        let reminders = Array.new(256);
+        let arrptr = 0;
+        return this;
+    }
+
+    method int something(Reminder reminder) {
+    return 0 * 5;
+           }
+
+    method int callSomething() {
+           do something(reminders[5]);
+           return 0;
+
+    }
+
+    method void run() {
+        var int choice, i;
+        var String title, notes, remindBy, id;
+        var Reminder reminder;
+
+        let i = 0;
+        let choice = 0;
+
+        do Output.printString("'R' to print, 'N' to create, any to quit");
+        do Output.println();
+        let choice = Keyboard.readChar();
+
+        if (choice = 82) {
+            do Screen.clearScreen();
+            do Output.moveCursor(0, 0);
+            while (i < arrptr) {
+                let reminder = reminders[i];
+                let title = reminder.getTitle();
+                let notes = reminder.getNotes();
+                let remindBy = reminder.getRemindBy();
+                do Output.println();
+                do Output.printInt(i);
+                do Output.println();
+                do Output.printString(title);
+                do Output.println();
+                do Output.printString(notes);
+                do Output.println();
+                do Output.printString(remindBy);
+                let i = i + 1;
+            }
+            do Output.println();
+            do run();
+        }
+
+        if (choice = 78) {
+            do Screen.clearScreen();
+            do Output.moveCursor(0, 0);
+            do Output.println();
+            let title = Keyboard.readLine("Enter a title:");
+            let notes = Keyboard.readLine("Enter the reminder notes:");
+            let remindBy = Keyboard.readLine("Enter a date to remind by:");
+            let reminder = Reminder.new(title, notes, remindBy);
+
+            let reminders[arrptr] = reminder;
+            let arrptr = arrptr + 1;
+            do run();
+        }
+
+        if (~(choice = 78) & ~(choice = 82)) {
+            do Output.println();
+            do Output.printString("Goodbye!");
+        }
+
+        return;
+    }
+
+}

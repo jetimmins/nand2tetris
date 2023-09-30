@@ -1,0 +1,15 @@
+/**
+* a program
+*/
+class Program {
+    field int myField;
+    static String myStaticField;
+
+    // a bad comment
+    constructor Program new(int x) {
+        let myStaticField = "my lovely string";
+        let myField = 42;
+        let myField=x+x     ;
+    }
+
+}

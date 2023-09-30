@@ -1,0 +1,47 @@
+function ComplexExpressions.new 2
+push constant 1
+call Memory.alloc 1
+pop pointer 0
+call Array.new 0
+pop local 0
+push constant 0
+pop local 1
+push constant 12
+pop this 0
+push constant 0
+push local 0
+add
+push argument 0
+push this 0
+add
+pop temp 0
+pop pointer 1
+push temp 0
+pop that 0
+push argument 0
+push this 0
+sub
+push local 0
+add
+pop pointer 1
+push that 0
+push constant 42
+gt
+not
+if-goto if_true_0
+goto else_start_0
+label if_true_0
+push constant 2
+push constant 2
+sub
+push argument 0
+sub
+push local 0
+add
+pop pointer 1
+push that 0
+push local 1
+not
+call something.some 2
+pop temp 0
+label else_start_0

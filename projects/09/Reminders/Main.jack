@@ -1,0 +1,9 @@
+class Main {
+
+    function void main() {
+        var ReminderPrompt reminderPrompt;
+        let reminderPrompt = ReminderPrompt.new();
+        do reminderPrompt.run();
+        return;
+    }
+}

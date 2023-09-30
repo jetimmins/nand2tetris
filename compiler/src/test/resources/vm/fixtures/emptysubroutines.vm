@@ -1,0 +1,8 @@
+function Shell.new 0
+push constant 2
+call Memory.alloc 1
+pop pointer 0
+function Shell.something 0
+push argument 0
+pop pointer 0
+function Shell.getArray 0

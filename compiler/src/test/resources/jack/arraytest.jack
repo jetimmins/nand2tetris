@@ -1,0 +1,19 @@
+class ArrayTest {
+    field Array a;
+
+    constructor ArrayTest new() {
+        let a = Array.new(5);
+        do set(a, 3, 4);
+        do incr(a[3]);
+        return this;
+    }
+
+    method void set(Array arr, int index, int val) {
+        let arr[index] = val;
+        return;
+    }
+
+   method void incr(int val) {
+       return;
+   }
+}

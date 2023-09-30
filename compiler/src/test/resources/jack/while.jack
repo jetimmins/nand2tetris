@@ -1,0 +1,11 @@
+class EmptyWhileStatement {
+
+    method void emptyWhileOnePlusTwo(int a, int b) {
+      while(true) {
+            while(true) {
+                    do add(a, b);
+                    do add(b, a);
+            }
+        }
+    }
+}

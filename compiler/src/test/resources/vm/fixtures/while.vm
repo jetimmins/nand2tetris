@@ -1,0 +1,27 @@
+function EmptyWhileStatement.emptyWhileOnePlusTwo 0
+push argument 0
+pop pointer 0
+label while_start_0
+push constant 1
+neg
+not
+if-goto while_end_0
+label while_start_1
+push constant 1
+neg
+not
+if-goto while_end_1
+push pointer 0
+push argument 1
+push argument 2
+call EmptyWhileStatement.add 3
+pop temp 0
+push pointer 0
+push argument 2
+push argument 1
+call EmptyWhileStatement.add 3
+pop temp 0
+goto while_start_1
+label while_end_1
+goto while_start_0
+label while_end_0

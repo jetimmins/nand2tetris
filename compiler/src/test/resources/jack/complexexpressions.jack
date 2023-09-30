@@ -1,0 +1,15 @@
+class ComplexExpressions {
+    field int myField;
+
+    constructor Program new(int x) {
+        var Array a;
+        var boolean b;
+        let a = Array.new();
+        let b = false;
+        let myField = 12;
+        let a[0] = x + myField;
+        if (~(a[x-myField] > 42)) {
+            do something.some(a[2-2-x], ~(b));
+        }
+    }
+}

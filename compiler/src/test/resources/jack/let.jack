@@ -1,0 +1,11 @@
+class LetStatement {
+
+    method void onePlusTwo() {
+        var int a;
+        var int b;
+        var Array c;
+        let a = 1;
+        let c[0] = 5;
+        let c[a+b+12] = 5;
+    }
+}

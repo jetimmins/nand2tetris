@@ -1,0 +1,8 @@
+class Shell {
+    field int myInt;
+    field String myString;
+
+    constructor Shell new(int x, Array a) {
+
+    }
+}

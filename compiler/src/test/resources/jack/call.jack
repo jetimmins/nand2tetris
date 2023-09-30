@@ -1,0 +1,18 @@
+class Call {
+    field int classInt;
+
+    constructor Call new() {
+        return this;
+    }
+
+    method void callEcho() {
+        var int myInt;
+        do echo(classInt);
+        do echo(myInt);
+        return;
+    }
+
+    method int echo(int arg) {
+        return arg;
+    }
+}

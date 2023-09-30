@@ -1,0 +1,6 @@
+class Basic {
+    constructor Basic new() {
+        var int myInt;
+        var String one, two, three;
+    }
+}

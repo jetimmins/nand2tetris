@@ -1,0 +1,37 @@
+<class>
+  <keyword>class</keyword>
+  <identifier>Basic</identifier>
+  <symbol>{</symbol>
+  <subroutineDec>
+    <keyword>constructor</keyword>
+    <identifier>Basic</identifier>
+    <identifier>new</identifier>
+    <symbol>(</symbol>
+    <parameterList>
+    </parameterList>
+    <symbol>)</symbol>
+    <subroutineBody>
+      <symbol>{</symbol>
+      <varDec>
+        <keyword>var</keyword>
+        <keyword>int</keyword>
+        <identifier>myInt</identifier>
+        <symbol>;</symbol>
+      </varDec>
+      <varDec>
+        <keyword>var</keyword>
+        <identifier>String</identifier>
+        <identifier>one</identifier>
+        <symbol>,</symbol>
+        <identifier>two</identifier>
+        <symbol>,</symbol>
+        <identifier>three</identifier>
+        <symbol>;</symbol>
+      </varDec>
+      <statements>
+      </statements>
+      <symbol>}</symbol>
+    </subroutineBody>
+  </subroutineDec>
+  <symbol>}</symbol>
+</class>

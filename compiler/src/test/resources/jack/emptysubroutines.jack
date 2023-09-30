@@ -1,0 +1,16 @@
+class Shell {
+    field int myInt;
+    field String myString;
+
+    constructor Shell new() {
+
+    }
+
+    method void something() {
+
+    }
+
+    function Array getArray() {
+
+    }
+}

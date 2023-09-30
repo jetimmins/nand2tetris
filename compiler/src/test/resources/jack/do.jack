@@ -1,0 +1,12 @@
+class DoStatement {
+
+    method void onePlusTwo() {
+        var int a;
+        var int b;
+        let a = 1;
+        let b = 2;
+        do add(a, b);
+        do add(b, a);
+        do something.different(4, 5);
+    }
+}

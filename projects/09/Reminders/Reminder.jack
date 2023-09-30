@@ -1,0 +1,43 @@
+class Reminder {
+
+    field String _title, _notes, _remindBy, fourth;
+    static int fuck;
+
+    constructor Reminder new(String title, String notes, String remindBy) {
+        let _title = title;
+        let _notes = notes;
+        let _remindBy = remindBy;
+        let fuck = 4;
+        let fourth = 4;
+        return this;
+    }
+
+    method String getTitle() {
+        return _title;
+    }
+
+    method String getNotes() {
+        return _notes;
+    }
+
+    method String getRemindBy() {
+        return _remindBy;
+    }
+
+    method int echo(int val, int num) {
+        let num = num + 1;
+        return fuck;
+    }
+
+    method void callEcho() {
+        do echo(5, 5);
+        do Reminder.isIt();
+        return;
+    }
+
+    function void isIt() {
+        let fuck = 4;
+        return;
+    }
+
+}

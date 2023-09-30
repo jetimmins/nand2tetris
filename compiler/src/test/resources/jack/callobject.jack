@@ -1,0 +1,19 @@
+class CallObject {
+
+    constructor CallObject new() {
+        return this;
+    }
+
+    method void callEcho() {
+        var int myInt;
+        var CallObject proxy;
+        let myInt = 4;
+        let proxy = CallObject.new();
+        do proxy.echo(myInt);
+        return;
+    }
+
+    method int echo(int arg) {
+        return arg;
+    }
+}

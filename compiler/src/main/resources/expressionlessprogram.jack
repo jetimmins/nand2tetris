@@ -1,0 +1,25 @@
+/**
+* a program
+*/
+class Program {
+    field int myField;
+    static int myStaticField;
+
+    // a bad comment
+    constructor Program new(int x) {
+        let myStaticField = 4;
+        let myField = 42;
+    }
+
+    function void something(int a, int b) {
+        var int bart;
+        while() {
+            if () {
+                do something(a, b);
+            } else {
+            do somethingElse(b, a);
+            }
+        }
+    }
+
+}

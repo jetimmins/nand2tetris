@@ -1,0 +1,22 @@
+<class>
+  <keyword>class</keyword>
+  <identifier>Basic</identifier>
+  <symbol>{</symbol>
+  <classVarDec>
+    <keyword>field</keyword>
+    <keyword>int</keyword>
+    <identifier>myInt</identifier>
+    <symbol>;</symbol>
+  </classVarDec>
+  <classVarDec>
+    <keyword>field</keyword>
+    <identifier>String</identifier>
+    <identifier>one</identifier>
+    <symbol>,</symbol>
+    <identifier>two</identifier>
+    <symbol>,</symbol>
+    <identifier>three</identifier>
+    <symbol>;</symbol>
+  </classVarDec>
+  <symbol>}</symbol>
+</class>

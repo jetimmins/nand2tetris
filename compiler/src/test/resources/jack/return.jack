@@ -1,0 +1,13 @@
+class EmptyReturnStatement {
+
+    method void something() {
+        var int one;
+        var int two;
+        let one, two = 4;
+        return;
+    }
+
+    method int four() {
+        return 4;
+    }
+}

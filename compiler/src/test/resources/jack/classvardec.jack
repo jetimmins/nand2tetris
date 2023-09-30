@@ -1,0 +1,4 @@
+class Basic {
+    field int myInt;
+    field String one, two, three;
+}

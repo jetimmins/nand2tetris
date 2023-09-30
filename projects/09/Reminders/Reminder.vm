@@ -1,0 +1,57 @@
+function Reminder.new 0
+push constant 4
+call Memory.alloc 1
+pop pointer 0
+push argument 0
+pop this 0
+push argument 1
+pop this 1
+push argument 2
+pop this 2
+push constant 4
+pop static 0
+push constant 4
+pop this 3
+push pointer 0
+return
+function Reminder.getTitle 0
+push argument 0
+pop pointer 0
+push this 0
+return
+function Reminder.getNotes 0
+push argument 0
+pop pointer 0
+push this 1
+return
+function Reminder.getRemindBy 0
+push argument 0
+pop pointer 0
+push this 2
+return
+function Reminder.echo 0
+push argument 0
+pop pointer 0
+push argument 2
+push constant 1
+add
+pop argument 2
+push static 0
+return
+function Reminder.callEcho 0
+push argument 0
+pop pointer 0
+push pointer 0
+push constant 5
+push constant 5
+call Reminder.echo 3
+pop temp 0
+call Reminder.isIt 0
+pop temp 0
+push constant 0
+return
+function Reminder.isIt 0
+push constant 4
+pop static 0
+push constant 0
+return

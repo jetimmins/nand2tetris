@@ -1,0 +1,10 @@
+class EmptyIfElseStatement {
+
+    method void something(int a, int b) {
+        if (true) {
+            do something(a, b);
+        } else {
+            do somethingElse(b, a);
+        }
+    }
+}
